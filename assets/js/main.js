@@ -1,0 +1,3 @@
+function fnCetak() {
+  window.print();
+}

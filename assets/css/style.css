@@ -1,0 +1,83 @@
+body, #content {
+	background-color: #fff !important;
+}
+
+/* Font */
+@font-face {
+    font-family: Viga;
+    src: url(../fonts/Viga-Regular.ttf);
+}
+/* End of Font */
+
+@media print {
+	.noprint {
+		display: none;
+	}	
+}
+
+/* Custom */
+.bg-transparent {
+	background: transparent !important;
+}
+
+.border-empty {
+	border: none !important;
+}
+
+/* End of Custom */
+
+
+/* Utilities */
+.text-black {
+	color: #0D0D0D !important;
+}
+
+.font-s-17 {
+	font-size: 17px !important;
+}
+
+.font-s-20 {
+	font-size: 20px !important;
+}
+
+/* End of Utilities */
+
+/* Sidebar */
+ul.sidebar .active {
+	/*background: orange !important;*/	
+	/*border-radius: 25px 2px 2px 25px;*/
+	color: #fff !important;
+	font-family: Viga;
+}
+
+ul.sidebar li.nav-item a.nav-link i {
+	color: rgba(255, 255, 255, 2.6);"
+}
+
+ul.sidebar li.nav-item a.nav-link span {
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: bold;
+}
+
+/* End of Sidebar */
+
+/* Table */
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: rgba(0, 135, 214, 0.2) !important; 
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgba(0, 135, 214, 0.2) !important; 
+}
+/* End of Table */
+
+.viga {
+	font-family: Viga !important;
+	color: white;
+}
+
+.jumbotron {
+	width: 1000px;
+	height: 250px;
+}
