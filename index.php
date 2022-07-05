@@ -110,7 +110,7 @@ ob_start();
                                                 <input type="password" name="password" class="form-control form-control-user" placeholder="Password" required>
                                             </div>
                                             <button class="btn btn-user btn-1 hover-filled-slide-right btn-block animatedButton" type="submit" name="submit">
-                                                <span>Login</span>
+                                                <span>Masuk</span>
                                             </button>
                                         </form>
                                         <?php
