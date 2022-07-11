@@ -44,16 +44,6 @@ if( empty( $_SESSION['iduser'] ) ){
       <!-- Begin Page Content -->
             <div class="container-fluid">
                 <!-- Page Heading -->
-                    <!-- <h1 class="h3 mb-0 text-gray-800">Dashboard</h1> -->
-                <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <div class="row mt-4 mx-auto">
-                        <div class="jumbotron px-auto shadow-lg">
-                            <h2 align="center">APLIKASI PEMBAYARAN SPP </h2>
-                            <p align="center">Jl. Raya Kedungpedaringan Kepanjen</p>
-                            <p align="center">Selamat Datang<strong></strong></p>
-                        </div>
-                    </div>
-                </div> -->
 
                 <div class="row">
                     <!-- Earnings (Monthly) Card Example -->
