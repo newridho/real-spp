@@ -21,9 +21,9 @@
             $('.modal .modal-dialog').attr('class', 'modal-dialog flipInX animated');
         });
 
-        // $('#gantiPass').on('show.bs.modal', function (e) {
-        //     $('.modal .modal-dialog').attr('class', 'modal-dialog flipInY animated');
-        // });
+        $('#gantiPass').on('show.bs.modal', function (e) {
+            $('.modal .modal-dialog').attr('class', 'modal-dialog flipInY animated');
+        });
       
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
